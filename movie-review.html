@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<!------------------------------HEAD------------------------------------------------>
+<head>
+<meta charset="UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>Movie Review - Movie Up!</title>
+<link rel="stylesheet" type="text/css" href="styledesign.css">
+
+<body>
+<nav>
+    <div class="sandwich-icon-area">
+            <p onclick="openNav()"> &#9776; <span>Movie Up!</span> </p>
+        </div> 
+    </nav>
+
+
+    <div id = "myNav" class = "overlay">
+        </script>
+        <link rel="style" href="styledesign.css"/>
+        <p class="close-icon" onclick="closeNav()"> &times;</p>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </div>
+
+    <script>
+            function openNav() {
+                document.getElementById("myNav").style.display = "block";
+            }
+            function closeNav(){
+                document.getElementById("myNav").style.display = "none";
+            }
+   </script> 
+
+    <header>
+<div class="bg-image"></div>
+
+    <div class="bg-text">
+        <h1>Movie Up!</h1>
+        <p>The Magnificent Movie Review Website!</p>
+    </div>
+    </header>
+
+
+
+    <main>
+        <h1>Movie Details</h1>
+
+        <div id="movieDetailContainer">
+
+        </div>
+        <div id= "ReviewFormContainer">
+            <h2> Write your review!</h2>
+            <form id ="ReviewFrom">
+            <label></label>
+            <input>
+
+
+            <label for="rating">Rating:</label>
+            <input>
+            <select id="rating" required>
+            <option value ="">Select Rating!</option>
+            <option  value = "5">🌟🌟🌟🌟🌟</option>
+            <option  value = "4">🌟🌟🌟🌟</option>
+            <option  value = "3">🌟🌟🌟</option>
+            <option  value = "2">🌟🌟</option>
+            <option  value = "1">🌟</option>
+            </select>
+
+
+
+            <label for="ReviewText">Your Review Here:</label>
+            <textarea id="ReviewText" rows="5" required></textarea>
+            <button type= "submit">Submit Review</button>
+
+
+
+
+    
+
+
+
+
+
+
+            
+
+
+
+
+
+            </form>
+
+        </div>
+    </main>
+
+
+    <footer class="vertical-center">
+    <p>Movie Up! &copy; 2025 <br> Made by Max Gardiner</p>
+</footer>
+
+
+<script src="movie-detail.js"> </script>
+</body>
+</html>
